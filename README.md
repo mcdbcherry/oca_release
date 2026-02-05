@@ -60,6 +60,7 @@ Breaking away from the "Copy & Paste" culture of Function Blocks (FB).
 
 ## 📦 Getting Started
 
+Please download the VS Code extension and experience developing control logic.
 
 ---
 
