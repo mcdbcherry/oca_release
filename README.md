@@ -3,7 +3,7 @@
 
 <img src="oca_logo.png" width="200">
 
-## 🚀 Philosophy: The "Zero-Allocation" Industrial Kernel
+## 🚀 Toward the Democratization of Automation Control
 
 **OCA challenges the 40-year stagnation of industrial control.**
 
