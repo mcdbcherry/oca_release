@@ -60,24 +60,6 @@ Breaking away from the "Copy & Paste" culture of Function Blocks (FB).
 
 ## 📦 Getting Started
 
-This repository contains the core kernel source code. For user logic development, please use the **OCA User Logic Engineering Kit** (VS Code Extension).
-
-### Prerequisites
-- Visual Studio Code
-- Docker Desktop (for cross-compilation)
-- Git
-
-### Build & Test
-```bash
-# Clone the repository
-git clone https://github.com/mcdbcherry/oca.git
-
-# Build the core engine (Windows)
-cd oca
-mkdir build && cd build
-cmake ..
-cmake --build . --config Release
-```
 
 ---
 
