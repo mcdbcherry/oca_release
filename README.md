@@ -26,6 +26,7 @@ The following performance has been verified on commercial off-the-shelf (COTS) h
 
 > *"99% of 'PC-based control' projects fail due to Garbage Collection pauses. OCA solves this by enforcing a strict Zero-Allocation architecture during the runtime cycle."*
 
+<img src="oca_win.png">
 ---
 
 ## 💎 Core Architecture
@@ -61,7 +62,7 @@ Breaking away from the "Copy & Paste" culture of Function Blocks (FB).
 ## 📦 Getting Started
 
 Please download the VS Code extension and experience developing control logic.
-
+<img src="VSCode.png">
 ---
 
 ## 💡 Tips for Creating User Logic
