@@ -11,6 +11,18 @@ For decades, the industry has been held hostage by proprietary hardware and outd
 
 OCA is not just a "SoftPLC". It is a **deterministic control kernel** built from scratch with **C++20**, designed to prove that software engineering can reclaim the factory floor.
 
+**About OCA (Object-oriented Control Architecture)**
+- [About OCA (Object-oriented Control Architecture)](document/001_About_OCA_Object-oriented Control Architecture_e.pdf)
+
+**Briefing Document**
+- [Next-Generation Industrial Control Platform "Object-oriented Control Architecture (OCA)" Briefing Document](document/010_Next-Generation Industrial Control Platform _Object-oriented Control Architecture (OCA)_ Briefing Document.pdf)
+
+**OCA (Object-oriented Control Architecture)とは**
+- [OCA (Object-oriented Control Architecture)について](document/001_About_OCA_Object-oriented Control Architecture_j.pdf)
+
+**ブリーフィングドキュメント**
+- [次世代産業用制御プラットフォーム「Object-oriented Control Architecture (OCA)」ブリーフィングドキュメント](document/010_次世代産業用制御プラットフォーム「Object-oriented Control Architecture (OCA)」ブリーフィングドキュメント.pdf)
+
 ---
 
 ## 🏆 Key Performance Metrics
