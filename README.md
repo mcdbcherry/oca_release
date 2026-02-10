@@ -1,4 +1,5 @@
 # OCA (Object-oriented Control Architecture)
+<img src="oca_win.png">
 ### Closing the 40-Year Gap in Industrial Automation
 
 <img src="oca_logo.png" width="200">
@@ -38,7 +39,7 @@ The following performance has been verified on commercial off-the-shelf (COTS) h
 
 > *"99% of 'PC-based control' projects fail due to Garbage Collection pauses. OCA solves this by enforcing a strict Zero-Allocation architecture during the runtime cycle."*
 
-<img src="oca_win.png">
+
 ---
 
 ## 💎 Core Architecture
