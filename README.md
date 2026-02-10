@@ -1,5 +1,6 @@
 # OCA (Object-oriented Control Architecture)
 <img src="oca_win.png">
+
 ### Closing the 40-Year Gap in Industrial Automation
 
 <img src="oca_logo.png" width="200">
