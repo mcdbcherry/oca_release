@@ -21,7 +21,7 @@ OCA is not just a "SoftPLC". It is a **deterministic control kernel** built from
 - [OCA (Object-oriented Control Architecture)について](document/001_About_OCA_Object-oriented%20Control%20Architecture_j.pdf)
 
 **ブリーフィングドキュメント**
-- [次世代産業用制御プラットフォーム「Object-oriented Control Architecture (OCA)」ブリーフィングドキュメント](document/010_%E6%AC%A1%E4%B8%96%E4%BB%A3%E7%94%A3%E6%A5%AD%E7%94%A8%E5%88%B6%E5%BE%A1%E3%83%97%E3%83%A9%E3%83%83%E3%83%97%E3%83%A9%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E3%80%8CObject-oriented%20Control%20Architecture%20(OCA)%E3%80%8D%E3%83%96%E3%83%AA%E3%83%BC%E3%83%95%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88.pdf)
+- [次世代産業用制御プラットフォーム「Object-oriented Control Architecture (OCA)」ブリーフィングドキュメント](document/010_Next-Generation%20Industrial%20Control%20Platform%20_Object-oriented%20Control%20Architecture%20(OCA)_%20Briefing%20Document_j.pdf)
 
 ---
 
