@@ -17,18 +17,6 @@ For decades, the industry has been held hostage by proprietary hardware and outd
 
 OCA is not just a "SoftPLC". It is a **deterministic control kernel** built from scratch with **C++20**, designed to prove that software engineering can reclaim the factory floor.
 
-**About OCA (Object-oriented Control Architecture)**
-- [About OCA (Object-oriented Control Architecture)](document/001_About_OCA_Object-oriented%20Control%20Architecture_e.pdf)
-
-**Briefing Document**
-- [Next-Generation Industrial Control Platform "Object-oriented Control Architecture (OCA)" Briefing Document](document/010_Next-Generation%20Industrial%20Control%20Platform%20_Object-oriented%20Control%20Architecture%20(OCA)_%20Briefing%20Document.pdf)
-
-**OCA (Object-oriented Control Architecture)とは**
-- [OCA (Object-oriented Control Architecture)について](document/001_About_OCA_Object-oriented%20Control%20Architecture_j.pdf)
-
-**ブリーフィングドキュメント**
-- [次世代産業用制御プラットフォーム「Object-oriented Control Architecture (OCA)」ブリーフィングドキュメント](document/010_Next-Generation%20Industrial%20Control%20Platform%20_Object-oriented%20Control%20Architecture%20(OCA)_%20Briefing%20Document_j.pdf)
-
 ---
 
 ## 🏆 Key Performance Metrics
@@ -49,16 +37,12 @@ The following performance has been verified on commercial off-the-shelf (COTS) h
 
 ## 💎 Core Architecture
 
-### 1. Determinism by Design (Zero-Allocation)
-Unlike Python or Node.js implementations, OCA prohibits dynamic memory allocation during the control cycle. All memory resources (Tags, Instances, Buffers) are pre-calculated and allocated during the **Start-up Phase**.
-- **Result:** No GC pauses, predictable execution time, and rigorous safety.
-
-### 2. True Object-Oriented Logic
+### 1. True Object-Oriented Logic
 Breaking away from the "Copy & Paste" culture of Function Blocks (FB).
 - **Inheritance & Polymorphism:** Create a base class `Conveyor` and derive `ConveyorWithSensor`. Modify the base, and all 100 instances update instantly.
 - **Vendor Compatibility:** Includes wrapper libraries for **Siemens (P_TRIG, TON)** and **Mitsubishi (PLS, SET)** to bridge the gap for traditional OT engineers.
 
-### 3. Modern DevOps Ecosystem
+### 2. Modern DevOps Ecosystem
 - **VS Code Integration:** Full-featured extension for Windows.
 - **Cross-Compilation:** Docker-based build pipeline hidden behind a single "Build" button.
 - **One-Click Deploy:** Automated SCP transfer, permission setting, and service restart via SSH.
