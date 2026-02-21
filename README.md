@@ -1,7 +1,7 @@
 # OCA (Object-oriented Control Architecture)
 <img src="oca_win.png">
 
-OCA is a modern SoftPLC / industrial automation runtime written in C++20.
+OCA is a modern Software controller (not SoftPLC) / industrial automation runtime written in C++20.
 It provides deterministic real-time control on Linux/Windows and ARM devices.
 Targets include Siemens IOT2050, Raspberry Pi, and general-purpose x64 hardware.
 
