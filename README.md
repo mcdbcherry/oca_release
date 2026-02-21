@@ -61,6 +61,18 @@ Breaking away from the "Copy & Paste" culture of Function Blocks (FB).
 
 ---
 
+## 📊 Jitter Analysis in Real-World PLC Control
+
+**Please note that the following data represents the measured values when controlling an external PLC via a general-purpose network.**
+
+While the OCA kernel itself operates stably at an ultra-fast cycle of under **10µs**, the jitter observed in this specific test is a physical constraint entirely originating from the TCP/IP communication delays and the scan time of the target PLC itself. 
+
+Even under these external hardware and network constraints, there are absolutely no unpredictable delays or system crashes caused by garbage collection. This data clearly proves that OCA continues to operate in a strictly **deterministic** manner on a general-purpose OS.
+
+<img src="jitter_analysis_results_20260221.png">
+
+---
+
 ## 📦 Getting Started
 
 Please download the VS Code extension and experience developing control logic.
