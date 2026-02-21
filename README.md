@@ -1,7 +1,7 @@
 # OCA (Object-oriented Control Architecture)
 <img src="oca_win.png">
 
-OCA is a modern SoftPLC / industrial automation runtime written in C++20.
+OCA is a modern Software controller (not SoftPLC) / industrial automation runtime written in C++20.
 It provides deterministic real-time control on Linux/Windows and ARM devices.
 Targets include Siemens IOT2050, Raspberry Pi, and general-purpose x64 hardware.
 
@@ -63,11 +63,13 @@ Breaking away from the "Copy & Paste" culture of Function Blocks (FB).
 
 ## 📊 Jitter Analysis in Real-World PLC Control
 
-**Please note that the following data represents the measured values when controlling an external PLC via a general-purpose network.**
+**Test Condition:**
+In this test, OCA commands an external PLC over a general-purpose network (TCP/IP) to toggle an output ON and OFF at a strict 1-second (1000ms) interval. The target PLC logs the actual timing of these state changes, and the resulting data is summarized below.
 
-While the OCA kernel itself operates stably at an ultra-fast cycle of under **10µs**, the jitter observed in this specific test is a physical constraint entirely originating from the TCP/IP communication delays and the scan time of the target PLC itself. 
+**Technical Evaluation:**
+While the OCA kernel itself operates stably at a cycle time of under **10µs**, the observed jitter (approx. ±50ms) is a physical constraint entirely originating from standard TCP/IP communication delays and the target PLC's own scan time fluctuations. 
 
-Even under these external hardware and network constraints, there are absolutely no unpredictable delays or system crashes caused by garbage collection. This data clearly proves that OCA continues to operate in a strictly **deterministic** manner on a general-purpose OS.
+Against the 1000ms expected interval, the average interval achieved was **999.347ms** (an astonishing average error of less than 1ms). There are absolutely no unpredictable delays, system freezes, or panic pauses caused by garbage collection or OS interrupts. This data clearly proves that OCA's architecture fundamentally eliminates sources of unpredictable latency, ensuring it operates in a strictly **deterministic** manner on a general-purpose OS.
 
 <img src="jitter_analysis_results_20260221.png">
 
